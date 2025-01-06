@@ -102,3 +102,6 @@ source <(ng completion script)
 
 # Custom scripts
 alias update='update_system.sh'
+alias tn='tmux new -s $(pwd | sed "s/.*\///g")'
+alias tk='tmux kill-server'
+alias tls='tmux ls'
