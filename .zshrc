@@ -14,6 +14,8 @@ export PATH="/usr/local/go/bin:$PATH"
 
 . "/home/zyr0/.deno/env"
 
+export PATH=$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH
+
 # Setting default Editors
 export EDITOR='nvim'
 export VISUAL='nvim'
