@@ -14,7 +14,6 @@ export PATH="/usr/local/go/bin:$PATH"
 
 . "/home/zyr0/.deno/env"
 
-export PATH=$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH
 
 # Setting default Editors
 export EDITOR='nvim'
@@ -105,3 +104,5 @@ alias update='update_system.sh'
 alias tn='tmux new -s $(pwd | sed "s/.*\///g")'
 alias tk='tmux kill-server'
 alias tls='tmux ls'
+
+alias s='sesh connect $(sesh list | fzf)'
